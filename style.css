@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  margin-bottom: 20px;
+}
+
+#progress-fill {
+  height: 100%;
+  width: 0%;
+  background: green;
+}
+
+.question-box {
+  border: 2px solid orange;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: gray;
+  color: white;
+  border: none;
+}

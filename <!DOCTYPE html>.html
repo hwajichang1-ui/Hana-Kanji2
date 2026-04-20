@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>クイズアプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2 id="progress">問題 1 / 3</h2>
+
+  <div class="progress-bar">
+    <div id="progress-fill"></div>
+  </div>
+
+  <div class="question-box">
+    <p id="question"></p>
+
+    <form id="choices"></form>
+  </div>
+
+  <button onclick="submitAnswer()">回答する</button>
+
+  <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
